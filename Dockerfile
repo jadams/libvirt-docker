@@ -1,7 +1,7 @@
 FROM fedora:36
 RUN dnf install -y \
     dbus-daemon \
-    virt-manager \1
+    virt-manager \
  && dnf clean all
 ENV GDK_BACKEND=broadway \
     NO_AT_BRIDGE=1
