@@ -1,4 +1,4 @@
-FROM fedora:36
+FROM fedora:38
 RUN dnf install -y \
     dbus-daemon \
     virt-manager \
